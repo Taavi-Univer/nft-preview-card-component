@@ -15,17 +15,12 @@
 }
 
 body {
-  /* max-height: 100vh; */
   margin: 0;
   background: var(--Very-Dark-Blue);
-  /* margin: 3em 1.5em; */
   font-family: "Outfit", sans-serif;
   font-size: 1.125rem;
   color: var(--Soft-Blue);
   line-height: 1.6;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 img {
