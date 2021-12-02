@@ -15,17 +15,12 @@
 }
 
 body {
-  /* max-height: 100vh; */
   margin: 0;
   background: var(--Very-Dark-Blue);
-  /* margin: 3em 1.5em; */
   font-family: "Outfit", sans-serif;
   font-size: 1.125rem;
   color: var(--Soft-Blue);
   line-height: 1.6;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 img {
@@ -57,11 +52,12 @@ main {
   height: auto;
   border-radius: 15px;
   opacity: 1;
-  transition: 0.2s ease-in;
+  transition: 0.5s ease;
+  transform: scale(1.003);
 }
 
 .hover-img {
-  transition: 0.2s ease-in;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
